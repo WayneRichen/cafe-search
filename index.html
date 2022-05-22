@@ -13,15 +13,14 @@
     />
 </head>
 
-<body class="bg-amber-200 bg-no-repeat bg-fixed" style="background-image: url(./image/cafe.png); background-position: 80% 5%;">
+<body class="bg-amber-200 bg-no-repeat bg-fixed bg-cover" style="background-image: url(./image/background.jpg);">
     <div class="max-w-7xl mt-20 lg:mx-auto md:mx-4">
         <span class="text-5xl text-slate-800">咖啡店查詢系統</span>
-        <form action="">
-            <span class="block w-full text-3xl text-zinc-700 mt-4">搜尋&emsp;<a href="#">熱門商店</a></span>
-            <div class="w-full flex">
-                <div class="mt-2 relative rounded-md shadow-sm max-w-4xl flex-auto">
-                    <div class="absolute inset-y-0 left-0 flex items-center">
-                        <select id="region" name="region" class="focus:ring-indigo-500 focus:border-indigo-500 h-full py-0 pl-2 pr-7 border-transparent bg-transparent text-gray-500 sm:text-sm rounded-md">
+        <span class="block w-full text-3xl text-zinc-700 mt-4">搜尋&emsp;<a href="#">熱門商店</a></span>
+        <div class="w-full flex">
+            <div class="mt-2 relative rounded-md shadow-sm max-w-4xl flex-auto">
+                <div class="absolute inset-y-0 left-0 flex items-center">
+                    <select id="region" name="region" class="focus:ring-indigo-500 focus:border-indigo-500 h-full py-0 pl-2 pr-7 border-transparent bg-transparent text-gray-500 sm:text-sm rounded-md">
                             <option>不限地區</option>
                             <option>台北</option>
                             <option>桃園</option>
@@ -29,12 +28,11 @@
                             <option>台南</option>
                             <option>高雄</option>
                         </select>
-                    </div>
-                    <input type="text" name="keyword" id="keyword" class="focus:ring-indigo-500 focus:border-indigo-500 block w-full h-12 pl-32 pr-12 sm:text-sm border-gray-300 rounded-md shadow-lg" placeholder="search">
                 </div>
-                <button class="ring-2 ring-transparent hover:ring-indigo-900 focus:border-indigo-900 block bg-white border-gray-300 h-12 w-20 mt-2 ml-2 rounded-md shadow-lg"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <input type="text" name="keyword" id="keyword" class="focus:ring-indigo-500 focus:border-indigo-500 block w-full h-12 pl-32 pr-12 sm:text-sm border-gray-300 rounded-md shadow-lg" placeholder="search">
             </div>
-        </form>
+            <button class="ring-2 ring-transparent hover:ring-indigo-900 focus:border-indigo-900 block bg-white border-gray-300 h-12 w-20 mt-2 ml-2 rounded-md shadow-lg"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
     </div>
     <div class="max-w-7xl my-4 lg:mx-auto md:mx-4 bg-white h-full p-4 rounded-md flex shadow-lg">
         <div class="flex-auto w-9/12 grid xl:grid-cols-3 lg:grid-cols-2 gap-6">
