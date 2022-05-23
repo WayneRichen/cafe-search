@@ -1,0 +1,226 @@
+[{
+        "name": "光一肆號",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipO9NX6JEXkS_UA-Xoo27MoqpcSYhEV-auXtoaXf=s718-k-no",
+        "region": "台北",
+        "description": "設花園座位的溫馨餐廳，提供沙拉、義大利麵和法式吐司等美味早午餐。",
+        "address": "106台北市大安區新生南路三段76巷2號",
+        "site": "https://bit.ly/3pG0IUG/",
+        "rank": "4.3"
+    },
+    {
+        "name": "星巴克 艋舺門市",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipP_ZcrKU_RamRupf3GIo2Q6iolmAJ739MGJrLg_=s744-k-no",
+        "region": "台北",
+        "description": "源於西雅圖的連鎖咖啡廳，以招牌烘焙豆、輕食和提供 WiFi 而聞名。",
+        "address": "108台北市萬華區西園路一段306巷24號",
+        "site": "https://www.starbucks.com.tw/",
+        "rank": "4.5"
+    },
+    {
+        "name": "Simple Kaffa Flagship 興波咖啡旗艦店",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipMLiicYsaBlpMM2owj860PWkEUJBHl1oYv33kkQ=s636-k-no",
+        "region": "台北",
+        "description": "鄉村時尚風的咖啡廳，專賣點心，以及萃取自精選咖啡豆的咖啡。",
+        "address": "100台北市中正區忠孝東路二段27號",
+        "site": "http://www.simplekaffa.com/",
+        "rank": "4.4"
+    },
+    {
+        "name": "Fika Fika Cafe",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipP-LEfbNl0p9nFbP-VLzkeWN2b_6C0cP4TJr2a1=s851-k-no",
+        "region": "台北",
+        "description": "空間明亮的悠閒咖啡廳，供應特調咖啡飲品、輕食和烘焙點心。",
+        "address": "104台北市中山區伊通街33號",
+        "site": "https://www.fikafikacafe.com/",
+        "rank": "4.4"
+    },
+    {
+        "name": "月半咖啡",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipP4Yv_V0d-zoYBreWe7aET3GL-Q3g1d-Mysvw4B=s638-k-no",
+        "region": "台北",
+        "description": "現在的人不斷地付出自己 不管是精神上還是體力上 希望進來的人有回家般的自在 吃飽喝飽養的胖胖 休息一下 重新開始",
+        "address": "106台北市大安區永康街47巷30號",
+        "site": "https://www.facebook.com/dwacocoffee/",
+        "rank": "4.7"
+    },
+    {
+        "name": "Re-Title Cafe",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipOaNFhr0VKlyGAEic-j2TRuAAEc80Szc8axRgcd=s638-k-no",
+        "region": "桃園",
+        "description": "計畫開始 無訂位服務，需現場候位 甜點開放外帶，不提供電話與網路預訂",
+        "address": "320桃園市中壢區愛國路60巷39號",
+        "site": "https://www.instagram.com/retitle.prj/",
+        "rank": "4.1"
+    },
+    {
+        "name": "八塊畫室咖啡",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipN6EeWd1mTwMEEjxtvdTXGyMgnxFW6E7H671Ofs=s638-k-no",
+        "region": "桃園",
+        "description": "讓您感受在畫廊裡享用著美食的氛圍 即使路過也歡迎進來喝杯咖啡 放鬆一下～",
+        "address": "334桃園市八德區長興路46號",
+        "site": "https://www.facebook.com/8kuai.atelierkafe",
+        "rank": "4.3"
+    },
+    {
+        "name": "Piepai Cafe’ 中壢店",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipMjkZq7JM6bOxPfGhk42ctpwFdlF3qnVpCDHWMF=s851-k-no",
+        "region": "桃園",
+        "description": "餐點以義大利麵、燉飯為主, 適合姊妹聚餐、情侶約會的空間, 有提供包場、周歲派對等",
+        "address": "320桃園市中壢區莒光路89號",
+        "site": "https://www.piepai.com.tw/",
+        "rank": "4.3"
+    },
+    {
+        "name": "HoneyWood Cafe",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipMZOiJcDDanVBRtLRGTKywRlzQyMM4n4aLLCUoF=s638-k-no",
+        "region": "桃園",
+        "description": "坐落於晶麒莊園內的夢幻玻璃屋咖啡館-HoneyWood Cafe歡迎您來體驗",
+        "address": "324桃園市平鎮區復旦路四段116巷51號",
+        "site": "https://www.facebook.com/HoneyWoodCafeTw/",
+        "rank": "4.4"
+    },
+    {
+        "name": "hiii birdie知鳥咖啡",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipPZjAgDnoAWU-Kk8nPV_0wovrH7jg6agdvsA_Af=s873-k-no",
+        "region": "桃園",
+        "description": "「啊，原來如此！」是知鳥廚房切削熬煮攪拌烘烤，努力追求的微妙滋味。去尋找辛勤踏實的農家，選擇天然新鮮的食材，作成樸實原味的甜點餐食、咖啡飲品等料理。",
+        "address": "333桃園市龜山區興華五街75號",
+        "site": "https://www.facebook.com/hiiibirdiecafe",
+        "rank": "4.0"
+    },
+    {
+        "name": "Tamp Temper Taichung Coffee",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipOaJekjSo585CjMw9NRLOTT4YarCf-yA8qO2sfM=s851-k-no",
+        "region": "台中",
+        "description": "星期日公休",
+        "address": "403台中市西區民權路286號",
+        "site": "https://tamp-temper-taichung-coffee.business.site/",
+        "rank": "4.9"
+    },
+    {
+        "name": "CREAMY DAILY CAFE",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipMr47RwfLWXERh2hqOUmpJfhZVDc3VtWVx5EzXq=s638-k-no",
+        "region": "台中",
+        "description": "CREAMY DAILY COFFEE",
+        "address": "408台中市南屯區豐功路17號",
+        "site": "https://instagram.com/creamydaily_cafe",
+        "rank": "4.1"
+    },
+    {
+        "name": "留白計畫 blank plan",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipO8YwSDaMnYo7jO3hM4FQA94wJ6cNxkyhUdkwuo=s850-k-no",
+        "region": "台中",
+        "description": "以空間、體驗與選品提供沈浸式體驗，涵蓋技藝與知識的文化有機體。",
+        "address": "403台中市西區五權西四街45號",
+        "site": "https://theblankplan.com/",
+        "rank": "4.6"
+    },
+    {
+        "name": "REC COFFEE Taiwan旗艦店",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipNxmwgh0eEolXT_DgkW7tezyzAr6IBdTnGPTKip=s850-k-no",
+        "region": "台中",
+        "description": "抱著「想讓更多人喝到美味的咖啡」的想法 REC COFFEE挑選了當時並不常見的行動咖啡車作為創立品牌的開端",
+        "address": "407025台中市西屯區惠中路一段88號26樓",
+        "site": "https://rec-coffee.com.tw/",
+        "rank": "4.5"
+    },
+    {
+        "name": "ABG COFFEE 台中公益店",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipMzGE11A4__QmAyqoRQVvPdxCZJVYiKkTbhtD1-=s744-k-no",
+        "region": "台中",
+        "description": "生活儘管稍縱即逝，把握每一個日常，就能夠一直享受美好",
+        "address": "408台中市南屯區公益路二段705號",
+        "site": "http://www.abgcoffee.com/",
+        "rank": "4.2"
+    },
+    {
+        "name": "尋路。甜",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipOUWk8oJ409r69jldcDe5Of11YXtIzLKhn0FfO1=s850-k-no",
+        "region": "台南",
+        "description": "現階段以開訂單接訂為主 / 無開放現場選購",
+        "address": "704台南市北區東豐路89號",
+        "site": "https://www.facebook.com/cottonfoxpastry/",
+        "rank": "4.6"
+    },
+    {
+        "name": "窟仔kula咖啡",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipPxFXre2uP7adCmBO_gRqD1sZq-d_6LSRTn3WU0=s744-k-no",
+        "region": "台南",
+        "description": "掉進坑裡開始廢",
+        "address": "700台南市中西區忠義路二段158巷13號1樓",
+        "site": "https://instagram.com/kula_coffee.drinks_",
+        "rank": "4.6"
+    },
+    {
+        "name": "朋友的朋友咖啡店",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipNK4ZmG_rlz_vjFqBr5qjJRACtrBxGfCieyJUpc=s850-k-no",
+        "region": "台南",
+        "description": "朋友的朋友開的 只準備我們自己喜歡的 如果剛好妳/你也喜歡就更好了",
+        "address": "700台南市中西區建安街51巷30號",
+        "site": "https://www.facebook.com/fsfscoffee/",
+        "rank": "4.6"
+    },
+    {
+        "name": "Must coffee 必須咖啡",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipM4ovifXS_EckftSCfWpIaflsa3si5VM9GaQfso=s716-k-no",
+        "region": "台南",
+        "description": "以穿梭在城市的各個角落為出發 讓身處在忙碌城市中生活的大家",
+        "address": "700台南市中西區民權路一段82號",
+        "site": "https://www.facebook.com/必須咖啡-Must-coffee-101926925272414",
+        "rank": "4.8"
+    },
+    {
+        "name": "順風號 Sūn Hong Hō",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipPbnaG-HzpdH69chlJRochA_exDJrEe39se15E5=s851-k-no",
+        "region": "台南",
+        "description": "來吧，來到順風號 感受此刻的光影與靜謐",
+        "address": "700台南市中西區開山路35巷39弄32號",
+        "site": "https://www.instagram.com/sunhongho/",
+        "rank": "4.8"
+    },
+    {
+        "name": "Gooday Cafe & Living",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipMPRVgpBeSxPe5Y8Dat7AFKZe14kPoEU8RMqXq5=s638-k-no",
+        "region": "高雄",
+        "description": "店長本業是設計師，咖啡廳的一草一木皆為親手佈置，現場也有老闆親自挑選的傢俱與書籍可以選購。",
+        "address": "807高雄市三民區力行路10號",
+        "site": "https://www.facebook.com/Gooday-Cafe-Living-102130724679476/",
+        "rank": "4.5"
+    },
+    {
+        "name": "FANs CAFÉ",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipMPRVgpBeSxPe5Y8Dat7AFKZe14kPoEU8RMqXq5=s638-k-no",
+        "region": "高雄",
+        "description": "一直有一個夢想，想出去認識這個世界，所以踏上了旅途。",
+        "address": "811高雄市楠梓區土庫一路158號",
+        "site": "https://www.facebook.com/fanscafekh",
+        "rank": "4.4"
+    },
+    {
+        "name": "新濱‧駅前",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipN0A6auAP4jUqpj06d6_0nTEU-dZnNRGsW3TVw=s638-k-no",
+        "region": "高雄",
+        "description": "位處舊打狗駅前的歷史建築「舊三和銀行」、「哈瑪星貿易商大樓」，日治時期屬於新濱町，故名為「新濱·駅前」。",
+        "address": "804高雄市鼓山區臨海三路5號",
+        "site": "https://www.facebook.com/新濱駅前-100870954795475/",
+        "rank": "4.2"
+    },
+    {
+        "name": "人良 Learn More Café",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipM7ASLPFkrFiKDULFnZbgYNhqUA9uAY9NAALV30=s638-k-no",
+        "region": "高雄",
+        "description": "老闆脾氣不好，Google評論星等很差，這邊不賣服務，沒有顧客至上，你給予我尊重，我回之以禮。",
+        "address": "803高雄市鹽埕區大安街3-11號B棟1樓",
+        "site": "https://www.facebook.com/pg/learnmorecafe/about/",
+        "rank": "3.9"
+    },
+    {
+        "name": "有。咖啡",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipMsCN6UtYcWUatwViA6YFYW6VAs2T86YCjpVony=s984-k-no",
+        "region": "高雄",
+        "description": "『有。咖啡』自家烘培咖啡豆 日本本格派Kono手沖單品咖啡 / 義式咖啡",
+        "address": "802高雄市苓雅區中正二路56巷11號",
+        "site": "https://www.facebook.com/rruyocafe/",
+        "rank": "4.6"
+    }
+]

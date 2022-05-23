@@ -13,10 +13,13 @@
     />
 </head>
 
-<body class="bg-amber-200 bg-no-repeat bg-fixed bg-cover" style="background-image: url(./image/background.jpg);">
+<body class="bg-no-repeat bg-fixed bg-cover" style="background-image: url(./image/background.jpg);">
     <div class="max-w-7xl mt-20 lg:mx-auto md:mx-4">
         <span class="text-5xl text-slate-800">咖啡店查詢系統</span>
-        <span class="block w-full text-3xl text-zinc-700 mt-4">搜尋&emsp;<a href="#">熱門商店</a></span>
+        <div class="block w-full text-3xl text-zinc-700 mt-4">
+            <span>搜尋</span>
+            <span class="hot-link cursor-pointer hover:text-black">熱門商店</span>
+        </div>
         <div class="w-full flex">
             <div class="mt-2 relative rounded-md shadow-sm max-w-4xl flex-auto">
                 <div class="absolute inset-y-0 left-0 flex items-center">
@@ -31,68 +34,18 @@
                 </div>
                 <input type="text" name="keyword" id="keyword" class="focus:ring-indigo-500 focus:border-indigo-500 block w-full h-12 pl-32 pr-12 sm:text-sm border-gray-300 rounded-md shadow-lg" placeholder="search">
             </div>
-            <button class="ring-2 ring-transparent hover:ring-indigo-900 focus:border-indigo-900 block bg-white border-gray-300 h-12 w-20 mt-2 ml-2 rounded-md shadow-lg"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button class="ring-2 ring-transparent hover:ring-black block bg-white border-gray-300 h-12 w-20 mt-2 ml-2 rounded-md shadow-lg"><i class="fa-solid fa-magnifying-glass"></i></button>
         </div>
     </div>
     <div class="max-w-7xl my-4 lg:mx-auto md:mx-4 bg-white h-full p-4 rounded-md flex shadow-lg">
-        <div class="flex-auto w-9/12 grid xl:grid-cols-3 lg:grid-cols-2 gap-6">
-            <div class="w-72 rounded overflow-hidden shadow-lg">
-                <img class="h-64 w-72 object-cover" src="https://lh5.googleusercontent.com/p/AF1QipNJ6xNutEXNVBgyDzRukqLx_3YgoWIrgWHVDegV=s638-k-no" alt="星巴克 (天玉門市)">
-                <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-2 text-slate-800">星巴克 (天玉門市)</div>
-                    <p class="text-gray-700 text-base">
-                        源於西雅圖的連鎖咖啡廳，以招牌烘焙豆、輕食和提供 WiFi 而聞名。<a href="https://www.starbucks.com.tw/">https://www.starbucks.com.tw/</a>
-                    </p>
-                </div>
-                <div class="px-6 pt-2 pb-2">
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">4.4 顆星</span>
-                </div>
-            </div>
-            <div class="w-72 rounded overflow-hidden shadow-lg">
-                <img class="h-64 w-72 object-cover" src="https://lh5.googleusercontent.com/p/AF1QipNJgiKkrXQ2eqA5NXqPEzHJQtHav_l81DUMfvsh=s850-k-no" alt="星巴克 (天玉門市)">
-                <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-2 text-slate-800">星巴克頭份中央門市</div>
-                    <p class="text-gray-700 text-base">
-                        源於西雅圖的連鎖咖啡廳，以招牌烘焙豆、輕食和提供 WiFi 而聞名。<a href="https://www.starbucks.com.tw/">https://www.starbucks.com.tw/</a>
-                    </p>
-                </div>
-                <div class="px-6 pt-2 pb-2">
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">4.5 顆星</span>
-                </div>
-            </div>
-            <div class="w-72 rounded overflow-hidden shadow-lg">
-                <img class="h-64 w-72 object-cover" src="https://lh5.googleusercontent.com/p/AF1QipOI-yCaJVN0rkOHDmPRDROI-Gg2pKYRP8bNlzXY=w408-h544-k-no" alt="星巴克 (天玉門市)">
-                <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-2 text-slate-800">星巴克 中埔穀倉門市</div>
-                    <p class="text-gray-700 text-base">
-                        源於西雅圖的連鎖咖啡廳，以招牌烘焙豆、輕食和提供 WiFi 而聞名。<a href="https://www.starbucks.com.tw/">https://www.starbucks.com.tw/</a>
-                    </p>
-                </div>
-                <div class="px-6 pt-2 pb-2">
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">4.5 顆星</span>
-                </div>
-            </div>
-            <div class="w-72 rounded overflow-hidden shadow-lg">
-                <img class="h-64 w-72 object-cover" src="https://lh5.googleusercontent.com/p/AF1QipM7lIwidVOt9fFANGTEe1u34rZ9xk6RzcLPfRTh=s1117-k-no" alt="星巴克 (天玉門市)">
-                <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-2 text-slate-800">Louisa Coffee 路易．莎咖啡(北投社3rd直營門市)</div>
-                    <p class="text-gray-700 text-base">
-                        源於西雅圖的連鎖咖啡廳，以招牌烘焙豆、輕食和提供 WiFi 而聞名。<a href="https://www.louisacoffee.co/">https://www.louisacoffee.co/</a>
-                    </p>
-                </div>
-                <div class="px-6 pt-2 pb-2">
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">4.5 顆星</span>
-                </div>
-            </div>
+        <div class="store-cards flex-auto w-9/12 grid xl:grid-cols-3 lg:grid-cols-2 gap-6">
+            <!-- 咖啡廳列表會放在這裡 -->
         </div>
         <div class="flex-auto w-3/12 pl-2">
             <div class="hot">
                 <span class="mx-auto text-lg font-black text-slate-800">人氣商店推薦</span>
-                <ul class="list-none mt-2 text-slate-700">
-                    <li>星巴克 (天玉門市)</li>
-                    <li>星巴克頭份中央門市</li>
-                    <li>星巴克 中埔穀倉門市</li>
-                    <li>Louisa Coffee 路易．莎咖啡(北投社3rd直營門市)</li>
+                <ul class="hot-list list-none mt-2 text-slate-700">
+                    <!-- 右邊人氣商店列表 -->
                 </ul>
             </div>
             <div class="mate mt-4">
@@ -101,9 +54,97 @@
                     <li>呂毅誠</li>
                     <li>曾品善</li>
                 </ul>
+                <div class="content"></div>
             </div>
         </div>
     </div>
 </body>
+<script>
+    // 首頁咖啡列表
+    let store_list = ajaxGetData();
+    mapStores(store_list);
+
+    // 人氣商店列表
+    $.ajax({
+        url: "http://127.0.0.1:5000/hot",
+        type: "get",
+        crossDomain: true,
+        async: false,
+        success: function(response) {
+            response.forEach(store => {
+                if (store.rank > 4) {
+                    let hot_store = $(`<li>${store.name}</li>`);
+                    $('.hot-list').append(hot_store);
+                }
+            });
+        },
+        error: function(thrownError) {
+            console.error(thrownError);
+        }
+    });
+
+    function ajaxGetData(data = {}) {
+        let result;
+        $.ajax({
+            url: "http://127.0.0.1:5000/",
+            type: "get",
+            data: data,
+            crossDomain: true,
+            async: false,
+            success: function(response) {
+                result = response;
+            },
+            error: function(thrownError) {
+                console.error(thrownError);
+            }
+        });
+
+        return result;
+    }
+
+    function mapStores(stores) {
+        if (stores) {
+            $('.store-cards').empty();
+            stores.forEach(store => {
+                let card_image = $(`<img class='h-64 w-72 object-cover' src='${store.image}' alt='${store.name}'>`);
+                let card_desc = $(`<div class="px-6 py-4"><div class="font-bold text-xl mb-2 text-slate-800">${store.name}</div><p class="text-gray-700 text-base">${store.description}<br/><a href="${store.site}">${store.site}</a></p></div>`);
+                let card_rand = $(`<div class="px-6 pt-2 pb-2"><span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">${store.rank}顆星</span></div>`);
+                let card = $(`<div class="w-72 rounded overflow-hidden shadow-lg"></div>`).append(card_image).append(card_desc).append(card_rand);
+                $('.store-cards').append(card);
+            });
+        }
+    }
+
+    function ajaxGetHotStores() {
+        let result;
+        $.ajax({
+            url: "http://127.0.0.1:5000/hot",
+            type: "get",
+            crossDomain: true,
+            async: false,
+            success: function(response) {
+                result = response;
+            },
+            error: function(thrownError) {
+                console.error(thrownError);
+            }
+        });
+        return result
+    }
+
+    $("#region").change(function() {
+        let region = $(this).val();
+        let data = {
+            'region': region
+        }
+        let stores = ajaxGetData(data);
+        mapStores(stores);
+    });
+
+    $(".hot-link").click(function() {
+        let hot_stores = ajaxGetHotStores();
+        mapStores(hot_stores);
+    })
+</script>
 
 </html>
