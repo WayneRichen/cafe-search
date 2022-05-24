@@ -35,7 +35,7 @@ def index():
     else: # 地區為空，關鍵字有值
         newData = []
         for i in data:
-            if (keyword in i['name']):
+            if (keyword.upper() in i['name'].upper()):
                 newData.append(i)
         
         return jsonify(newData)
