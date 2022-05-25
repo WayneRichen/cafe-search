@@ -60,14 +60,14 @@
     </div>
 </body>
 <script>
-    const BACKEND_URL = 'https://b03yigi5bb.execute-api.us-east-2.amazonaws.com/'; // 這邊要改成本地的 Python 網址及埠號，例如 http://127.0.0.1:5000
+    const BACKEND_URL = 'https://b03yigi5bb.execute-api.us-east-2.amazonaws.com'; // 這邊要改成本地的 Python 網址及埠號，例如 http://127.0.0.1:5000
     // 首頁咖啡列表
     let store_list = ajaxGetStores();
     mapStores(store_list);
 
     // 人氣商店列表
     let hot_stores = ajaxGetHotStores();
-    if (hot_stores && typeof hot_stores[0].name !== 'undefined') {
+    if (hot_stores) {
         hot_stores.forEach(store => {
             if (store.rank > 4) {
                 let hot_store = $(`<li>${store.name}</li>`);
@@ -83,7 +83,7 @@
     }
 
     function mapStores(stores) {
-        if (stores && typeof stores[0].name !== 'undefined') {
+        if (stores) {
             $('.store-cards').empty();
             stores.forEach(store => {
                 let card_image = $(`<img class='h-64 w-72 object-cover' src='${store.image}' alt='${store.name}'>`);
