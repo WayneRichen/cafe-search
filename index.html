@@ -67,12 +67,14 @@
 
     // 人氣商店列表
     let hot_stores = ajaxGetHotStores();
-    hot_stores.forEach(store => {
-        if (store.rank > 4) {
-            let hot_store = $(`<li>${store.name}</li>`);
-            $('.hot-list').append(hot_store);
-        }
-    });
+    if (hot_stores && typeof hot_stores[0].name !== 'undefined') {
+        hot_stores.forEach(store => {
+            if (store.rank > 4) {
+                let hot_store = $(`<li>${store.name}</li>`);
+                $('.hot-list').append(hot_store);
+            }
+        });
+    }
 
     function ajaxGetStores(data = {}) {
         let result = ajaxGet('', data);
@@ -81,7 +83,7 @@
     }
 
     function mapStores(stores) {
-        if (stores) {
+        if (stores && typeof stores[0].name !== 'undefined') {
             $('.store-cards').empty();
             stores.forEach(store => {
                 let card_image = $(`<img class='h-64 w-72 object-cover' src='${store.image}' alt='${store.name}'>`);
@@ -145,7 +147,7 @@
     $("#keyword").keypress(function(e){
         if (e.which == 13) {
             $('.search').click();
-            return false;    //<---- Add this line
+            return false;
         }
     });
 </script>
