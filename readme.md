@@ -1,4 +1,8 @@
-# 咖啡店查詢系統
+# 【外包作品】咖啡店查詢系統
+# 【外包作品】加油補給站
+連結：[waynerichen.github.io/cafe-serach/](https://waynerichen.github.io/cafe-serach/)
+
+※ 本專案僅供學術用途，網站使用之素材為咖啡店所有。
 
 ## 技術
 * 前端使用 HTML、Tailwind CSS、jQuery
